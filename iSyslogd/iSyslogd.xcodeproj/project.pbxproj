@@ -1,0 +1,488 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F939E49818636F8800F0589A /* ISUdpConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = F939E49718636F8800F0589A /* ISUdpConnection.m */; };
+		F9E0763718636C9B0097ED1E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9E0763618636C9B0097ED1E /* Cocoa.framework */; };
+		F9E0764118636C9B0097ED1E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F9E0763F18636C9B0097ED1E /* InfoPlist.strings */; };
+		F9E0764318636C9B0097ED1E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E0764218636C9B0097ED1E /* main.m */; };
+		F9E0764718636C9B0097ED1E /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = F9E0764518636C9B0097ED1E /* Credits.rtf */; };
+		F9E0764A18636C9B0097ED1E /* ISAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E0764918636C9B0097ED1E /* ISAppDelegate.m */; };
+		F9E0764D18636C9B0097ED1E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9E0764B18636C9B0097ED1E /* MainMenu.xib */; };
+		F9E0764F18636C9B0097ED1E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9E0764E18636C9B0097ED1E /* Images.xcassets */; };
+		F9E0765618636C9B0097ED1E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9E0765518636C9B0097ED1E /* XCTest.framework */; };
+		F9E0765718636C9B0097ED1E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9E0763618636C9B0097ED1E /* Cocoa.framework */; };
+		F9E0765F18636C9B0097ED1E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F9E0765D18636C9B0097ED1E /* InfoPlist.strings */; };
+		F9E0766118636C9B0097ED1E /* iSyslogdTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E0766018636C9B0097ED1E /* iSyslogdTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F9E0765818636C9B0097ED1E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F9E0762B18636C9B0097ED1E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F9E0763218636C9B0097ED1E;
+			remoteInfo = iSyslogd;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F939E49618636F8800F0589A /* ISUdpConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISUdpConnection.h; sourceTree = "<group>"; };
+		F939E49718636F8800F0589A /* ISUdpConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISUdpConnection.m; sourceTree = "<group>"; };
+		F9E0763318636C9B0097ED1E /* iSyslogd.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iSyslogd.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9E0763618636C9B0097ED1E /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		F9E0763918636C9B0097ED1E /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		F9E0763A18636C9B0097ED1E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		F9E0763B18636C9B0097ED1E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F9E0763E18636C9B0097ED1E /* iSyslogd-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iSyslogd-Info.plist"; sourceTree = "<group>"; };
+		F9E0764018636C9B0097ED1E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F9E0764218636C9B0097ED1E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F9E0764418636C9B0097ED1E /* iSyslogd-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iSyslogd-Prefix.pch"; sourceTree = "<group>"; };
+		F9E0764618636C9B0097ED1E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		F9E0764818636C9B0097ED1E /* ISAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ISAppDelegate.h; sourceTree = "<group>"; };
+		F9E0764918636C9B0097ED1E /* ISAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ISAppDelegate.m; sourceTree = "<group>"; };
+		F9E0764C18636C9B0097ED1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		F9E0764E18636C9B0097ED1E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F9E0765418636C9B0097ED1E /* iSyslogdTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iSyslogdTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9E0765518636C9B0097ED1E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F9E0765C18636C9B0097ED1E /* iSyslogdTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iSyslogdTests-Info.plist"; sourceTree = "<group>"; };
+		F9E0765E18636C9B0097ED1E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F9E0766018636C9B0097ED1E /* iSyslogdTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iSyslogdTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F9E0763018636C9B0097ED1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9E0763718636C9B0097ED1E /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9E0765118636C9B0097ED1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9E0765718636C9B0097ED1E /* Cocoa.framework in Frameworks */,
+				F9E0765618636C9B0097ED1E /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F9E0762A18636C9B0097ED1E = {
+			isa = PBXGroup;
+			children = (
+				F9E0763C18636C9B0097ED1E /* iSyslogd */,
+				F9E0765A18636C9B0097ED1E /* iSyslogdTests */,
+				F9E0763518636C9B0097ED1E /* Frameworks */,
+				F9E0763418636C9B0097ED1E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F9E0763418636C9B0097ED1E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F9E0763318636C9B0097ED1E /* iSyslogd.app */,
+				F9E0765418636C9B0097ED1E /* iSyslogdTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F9E0763518636C9B0097ED1E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F9E0763618636C9B0097ED1E /* Cocoa.framework */,
+				F9E0765518636C9B0097ED1E /* XCTest.framework */,
+				F9E0763818636C9B0097ED1E /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F9E0763818636C9B0097ED1E /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F9E0763918636C9B0097ED1E /* AppKit.framework */,
+				F9E0763A18636C9B0097ED1E /* CoreData.framework */,
+				F9E0763B18636C9B0097ED1E /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		F9E0763C18636C9B0097ED1E /* iSyslogd */ = {
+			isa = PBXGroup;
+			children = (
+				F9E0764818636C9B0097ED1E /* ISAppDelegate.h */,
+				F9E0764918636C9B0097ED1E /* ISAppDelegate.m */,
+				F939E49618636F8800F0589A /* ISUdpConnection.h */,
+				F939E49718636F8800F0589A /* ISUdpConnection.m */,
+				F9E0764B18636C9B0097ED1E /* MainMenu.xib */,
+				F9E0764E18636C9B0097ED1E /* Images.xcassets */,
+				F9E0763D18636C9B0097ED1E /* Supporting Files */,
+			);
+			path = iSyslogd;
+			sourceTree = "<group>";
+		};
+		F9E0763D18636C9B0097ED1E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F9E0763E18636C9B0097ED1E /* iSyslogd-Info.plist */,
+				F9E0763F18636C9B0097ED1E /* InfoPlist.strings */,
+				F9E0764218636C9B0097ED1E /* main.m */,
+				F9E0764418636C9B0097ED1E /* iSyslogd-Prefix.pch */,
+				F9E0764518636C9B0097ED1E /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F9E0765A18636C9B0097ED1E /* iSyslogdTests */ = {
+			isa = PBXGroup;
+			children = (
+				F9E0766018636C9B0097ED1E /* iSyslogdTests.m */,
+				F9E0765B18636C9B0097ED1E /* Supporting Files */,
+			);
+			path = iSyslogdTests;
+			sourceTree = "<group>";
+		};
+		F9E0765B18636C9B0097ED1E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F9E0765C18636C9B0097ED1E /* iSyslogdTests-Info.plist */,
+				F9E0765D18636C9B0097ED1E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F9E0763218636C9B0097ED1E /* iSyslogd */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9E0766418636C9B0097ED1E /* Build configuration list for PBXNativeTarget "iSyslogd" */;
+			buildPhases = (
+				F9E0762F18636C9B0097ED1E /* Sources */,
+				F9E0763018636C9B0097ED1E /* Frameworks */,
+				F9E0763118636C9B0097ED1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iSyslogd;
+			productName = iSyslogd;
+			productReference = F9E0763318636C9B0097ED1E /* iSyslogd.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F9E0765318636C9B0097ED1E /* iSyslogdTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9E0766718636C9B0097ED1E /* Build configuration list for PBXNativeTarget "iSyslogdTests" */;
+			buildPhases = (
+				F9E0765018636C9B0097ED1E /* Sources */,
+				F9E0765118636C9B0097ED1E /* Frameworks */,
+				F9E0765218636C9B0097ED1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F9E0765918636C9B0097ED1E /* PBXTargetDependency */,
+			);
+			name = iSyslogdTests;
+			productName = iSyslogdTests;
+			productReference = F9E0765418636C9B0097ED1E /* iSyslogdTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F9E0762B18636C9B0097ED1E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = IS;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Curtis Jones";
+				TargetAttributes = {
+					F9E0765318636C9B0097ED1E = {
+						TestTargetID = F9E0763218636C9B0097ED1E;
+					};
+				};
+			};
+			buildConfigurationList = F9E0762E18636C9B0097ED1E /* Build configuration list for PBXProject "iSyslogd" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F9E0762A18636C9B0097ED1E;
+			productRefGroup = F9E0763418636C9B0097ED1E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F9E0763218636C9B0097ED1E /* iSyslogd */,
+				F9E0765318636C9B0097ED1E /* iSyslogdTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F9E0763118636C9B0097ED1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9E0764118636C9B0097ED1E /* InfoPlist.strings in Resources */,
+				F9E0764F18636C9B0097ED1E /* Images.xcassets in Resources */,
+				F9E0764718636C9B0097ED1E /* Credits.rtf in Resources */,
+				F9E0764D18636C9B0097ED1E /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9E0765218636C9B0097ED1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9E0765F18636C9B0097ED1E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F9E0762F18636C9B0097ED1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F939E49818636F8800F0589A /* ISUdpConnection.m in Sources */,
+				F9E0764A18636C9B0097ED1E /* ISAppDelegate.m in Sources */,
+				F9E0764318636C9B0097ED1E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9E0765018636C9B0097ED1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9E0766118636C9B0097ED1E /* iSyslogdTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F9E0765918636C9B0097ED1E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F9E0763218636C9B0097ED1E /* iSyslogd */;
+			targetProxy = F9E0765818636C9B0097ED1E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F9E0763F18636C9B0097ED1E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9E0764018636C9B0097ED1E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F9E0764518636C9B0097ED1E /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9E0764618636C9B0097ED1E /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		F9E0764B18636C9B0097ED1E /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9E0764C18636C9B0097ED1E /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		F9E0765D18636C9B0097ED1E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9E0765E18636C9B0097ED1E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F9E0766218636C9B0097ED1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		F9E0766318636C9B0097ED1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F9E0766518636C9B0097ED1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iSyslogd/iSyslogd-Prefix.pch";
+				INFOPLIST_FILE = "iSyslogd/iSyslogd-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F9E0766618636C9B0097ED1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iSyslogd/iSyslogd-Prefix.pch";
+				INFOPLIST_FILE = "iSyslogd/iSyslogd-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F9E0766818636C9B0097ED1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iSyslogd.app/Contents/MacOS/iSyslogd";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iSyslogd/iSyslogd-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "iSyslogdTests/iSyslogdTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		F9E0766918636C9B0097ED1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iSyslogd.app/Contents/MacOS/iSyslogd";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iSyslogd/iSyslogd-Prefix.pch";
+				INFOPLIST_FILE = "iSyslogdTests/iSyslogdTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F9E0762E18636C9B0097ED1E /* Build configuration list for PBXProject "iSyslogd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9E0766218636C9B0097ED1E /* Debug */,
+				F9E0766318636C9B0097ED1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9E0766418636C9B0097ED1E /* Build configuration list for PBXNativeTarget "iSyslogd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9E0766518636C9B0097ED1E /* Debug */,
+				F9E0766618636C9B0097ED1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9E0766718636C9B0097ED1E /* Build configuration list for PBXNativeTarget "iSyslogdTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9E0766818636C9B0097ED1E /* Debug */,
+				F9E0766918636C9B0097ED1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F9E0762B18636C9B0097ED1E /* Project object */;
+}
